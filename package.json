@@ -2,14 +2,18 @@
   "name": "biomed-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://steven-n-wilson.github.io",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "dev": "vite",
-    "postcss": "postcss src/index.css -o src/tailwind.css"
+    "postcss": "postcss src/index.css -o src/tailwind.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "framer-motion": "^12.9.4",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
