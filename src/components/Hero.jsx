@@ -25,7 +25,7 @@ const Hero = () => (
     <p className="text-lg md:text-xl text-gray-600 mb-6 text-center">
       MASc Biomedical Engineering @ uOttawa | BSc Computer Science
     </p>
-    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-30 flex gap-6 mt-4 px-8 py-3 rounded-full bg-white/70 backdrop-blur-md shadow-lg w-max border border-gray-200">
+    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-30 flex gap-6 mt-4 px-8 py-3  rounded-full bg-white/70 backdrop-blur-md shadow-lg w-max border border-gray-200">
       <a href="#about" className={navLinkClass}>About</a>
       <a href="#projects" className={navLinkClass}>Projects</a>
       <a href="#skills" className={navLinkClass}>Skills</a>
