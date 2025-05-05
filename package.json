@@ -9,7 +9,7 @@
     "dev": "vite",
     "postcss": "postcss src/index.css -o src/tailwind.css",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^12.9.4",
