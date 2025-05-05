@@ -17,8 +17,5 @@ export default defineConfig({
         assetFileNames: `assets/[name].[ext]`
       }
     }
-  },
-  esbuild: {
-    jsxInject: `import React from 'react'`
   }
 })
