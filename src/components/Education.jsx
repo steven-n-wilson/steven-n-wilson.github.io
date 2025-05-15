@@ -45,13 +45,13 @@ const Education = () => (
         transition={{ duration: 0.7 }}
       >
         <span className="inline-block w-1.5 h-8 rounded bg-[#3b82f6] mr-4"></span>
-        <h2 className="text-3xl font-bold text-center" style={{ color: textColor }}>Education</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center" style={{ color: textColor }}>Education</h2>
       </motion.div>
-      <div className="space-y-6">
+      <div className="space-y-4 md:space-y-6">
         {education.map((edu, idx) => (
           <motion.div 
             key={idx} 
-            className="rounded-xl p-6 flex flex-col md:flex-row md:items-start md:justify-between bg-white/60 backdrop-blur-md border border-white/40 shadow-lg"
+            className="rounded-xl p-4 md:p-6 flex flex-col md:flex-row md:items-start md:justify-between bg-white/60 backdrop-blur-md border border-white/40 shadow-lg"
             style={{ borderLeft: `4px solid ${accentColor}` }}
             whileHover={{ 
               scale: 1.02,
@@ -61,14 +61,14 @@ const Education = () => (
             transition={{ type: 'spring', stiffness: 300 }}
           >
             <div className="flex-grow">
-              <h3 className="text-xl font-semibold" style={{ color: accentColor }}>{edu.degree}</h3>
+              <h3 className="text-lg md:text-xl font-semibold" style={{ color: accentColor }}>{edu.degree}</h3>
               <p className="text-gray-700">{edu.school}</p>
               {edu.grade && (
                 <p className="text-emerald-600 font-medium mt-1">
                   Grade: {edu.grade}
                 </p>
               )}
-              <p className="text-gray-600 mt-2">{edu.details}</p>
+              <p className="text-sm md:text-base text-gray-600 mt-2">{edu.details}</p>
               {edu.relevantCourses && (
                 <div className="mt-3">
                   <p className="text-gray-700 font-medium mb-2">Relevant Courses:</p>
@@ -76,7 +76,7 @@ const Education = () => (
                     {edu.relevantCourses.map((course, i) => (
                       <span
                         key={i}
-                        className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium"
+                        className="px-2 md:px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs md:text-sm font-medium"
                       >
                         {course}
                       </span>
@@ -85,7 +85,7 @@ const Education = () => (
                 </div>
               )}
             </div>
-            <span className="font-medium mt-2 md:mt-0 text-right whitespace-nowrap ml-4" style={{ color: accentColor }}>
+            <span className="font-medium mt-2 md:mt-0 text-right whitespace-nowrap ml-0 md:ml-4" style={{ color: accentColor }}>
               {edu.years}
             </span>
           </motion.div>

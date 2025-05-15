@@ -18,12 +18,14 @@ const About = () => (
       transition={{ duration: 0.7 }}
     >
       <span className="inline-block w-1.5 h-8 rounded bg-[#3b82f6] mr-4"></span>
-      <h2 className="text-3xl font-bold text-center">About Me</h2>
+      <h2 className="text-2xl md:text-3xl font-bold text-center">About Me</h2>
     </motion.div>
-    <p className="max-w-2xl text-center text-gray-700 text-lg">
-      I am currently pursuing a Master's in Biomedical Engineering at uOttawa, with a background in Computer Science. I am passionate about leveraging technology to solve real-world problems in healthcare.<br /><br />
-      My research focuses on developing a Flutter-based app to collect IMU and video data for pose estimation in children with mobility impairments.
-    </p>
+    <div className="max-w-2xl px-6 md:px-8">
+      <p className="text-center text-gray-700 text-base md:text-lg leading-relaxed">
+        I am currently pursuing a Master's in Biomedical Engineering at uOttawa, with a background in Computer Science. I am passionate about leveraging technology to solve real-world problems in healthcare.<br /><br />
+        My research focuses on developing a Flutter-based app to collect IMU and video data for pose estimation in children with mobility impairments.
+      </p>
+    </div>
     {/* My interests include medical imaging, data science, and building impactful projects at the intersection of engineering and medicine. */}
   </motion.section>
 );
