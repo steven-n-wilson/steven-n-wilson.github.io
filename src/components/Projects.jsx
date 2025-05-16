@@ -354,7 +354,7 @@ const Projects = () => {
                       href={project.colab} 
                       target="_blank" 
                       rel="noopener noreferrer" 
-                      className="flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-yellow-100 text-yellow-800 text-xs font-semibold hover:bg-yellow-200 transition-colors"
+                      className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-white text-gray-700 text-xs font-semibold hover:bg-gray-50 transition-all cursor-pointer shadow-sm hover:shadow-md active:bg-gray-100 border border-gray-200"
                     >
                       <ColabIcon />
                       Google Colab
@@ -364,7 +364,7 @@ const Projects = () => {
                     <>
                       <button 
                         onClick={() => setShowPresentation(true)}
-                        className="flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-semibold hover:bg-blue-200 transition-colors"
+                        className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 text-xs font-semibold hover:bg-blue-200 transition-all cursor-pointer shadow-sm hover:shadow-md active:bg-blue-300"
                       >
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
@@ -373,7 +373,7 @@ const Projects = () => {
                       </button>
                       <button 
                         onClick={() => setShowPaper(true)} 
-                        className="flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-green-100 text-green-800 text-xs font-semibold hover:bg-green-200 transition-colors"
+                        className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-green-100 text-green-700 text-xs font-semibold hover:bg-green-200 transition-all cursor-pointer shadow-sm hover:shadow-md active:bg-green-300"
                       >
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -386,7 +386,7 @@ const Projects = () => {
                     <>
                       <button
                         onClick={() => setShowMrnaOriginalPaper(true)}
-                        className="flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-semibold hover:bg-blue-200 transition-colors"
+                        className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 text-xs font-semibold hover:bg-blue-200 transition-all cursor-pointer shadow-sm hover:shadow-md active:bg-blue-300"
                       >
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -395,7 +395,7 @@ const Projects = () => {
                       </button>
                       <button
                         onClick={() => setShowMrnaPaper(true)}
-                        className="flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-green-100 text-green-800 text-xs font-semibold hover:bg-green-200 transition-colors"
+                        className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-green-100 text-green-700 text-xs font-semibold hover:bg-green-200 transition-all cursor-pointer shadow-sm hover:shadow-md active:bg-green-300"
                       >
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -408,7 +408,7 @@ const Projects = () => {
                     <>
                       <button
                         onClick={() => setShowEmgPresentation(true)}
-                        className="flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-semibold hover:bg-blue-200 transition-colors"
+                        className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-blue-100 text-blue-700 text-xs font-semibold hover:bg-blue-200 transition-all cursor-pointer shadow-sm hover:shadow-md active:bg-blue-300"
                       >
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
@@ -417,7 +417,7 @@ const Projects = () => {
                       </button>
                       <button
                         onClick={() => setShowEmgPaper(true)}
-                        className="flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-green-100 text-green-800 text-xs font-semibold hover:bg-green-200 transition-colors"
+                        className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-green-100 text-green-700 text-xs font-semibold hover:bg-green-200 transition-all cursor-pointer shadow-sm hover:shadow-md active:bg-green-300"
                       >
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
