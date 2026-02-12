@@ -5,7 +5,7 @@ const education = [
   {
     degree: 'MASc Biomedical Engineering',
     school: 'University of Ottawa',
-    years: '2024 - Present',
+    years: '2024 - 2026',
     details: 'Research focused on developing mobile-based motion analysis tools for pediatric mobility assessment, combining computer vision, IMU sensors, and machine learning for clinical applications.',
   },
   {
