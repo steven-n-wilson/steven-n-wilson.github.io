@@ -16,7 +16,7 @@ const education = [
     details: 'Focus on software engineering, data science, and machine learning fundamentals.',
     relevantCourses: [
       'Python',
-      'Introduction to AI',
+      'AI',
       'Android Development',
     ],
   }
